@@ -1,0 +1,42 @@
+.body {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main {
+  height: 550px;
+  padding: 1rem;
+  margin: 3rem 6rem;
+  border: 5px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.main .image {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.button .a {
+  display: inline-block;
+  border: 1px solid black;
+  padding: 1rem;
+  margin: 1rem;
+}
+.button .a:hover {
+  color: white;
+  background-color: black;
+}
+/*# sourceMappingURL=menuAbout.module.css.map */
